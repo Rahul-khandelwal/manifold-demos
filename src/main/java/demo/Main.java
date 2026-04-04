@@ -1,5 +1,6 @@
 package demo;
 
+import manifold.operaror_overloading.Point;
 import manifold.params.Country;
 import manifold.properties.Person;
 
@@ -25,5 +26,12 @@ class Main {
     Country USA = new Country("USA");
     System.out.println(USA.language());
     System.out.println(USA.timezone);
+
+    Point p1 = new Point(1, 2);
+    Point p2 = new Point(1, 2);
+    Point res = p1 + p2;
+    System.out.println(res);
+    res++;
+    System.out.println(res);
   }
 }
