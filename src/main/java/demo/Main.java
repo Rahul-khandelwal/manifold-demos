@@ -1,6 +1,6 @@
 package demo;
 
-import manifold.operaror_overloading.Point;
+import manifold.operator_overloading.Point;
 import manifold.params.Country;
 import manifold.properties.Person;
 

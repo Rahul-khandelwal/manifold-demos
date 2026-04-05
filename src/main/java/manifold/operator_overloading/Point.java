@@ -1,4 +1,4 @@
-package manifold.operaror_overloading;
+package manifold.operator_overloading;
 
 public record Point(int x, int y) {
 
